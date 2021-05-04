@@ -1,0 +1,98 @@
+@font-face {
+    font-family: shabnam;
+    src: url(./fonts/Shabnam.woff);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: shabnam;
+}
+
+
+/* top */
+
+.header {
+    min-height: 50px;
+}
+
+.top-right-wave {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.div-logo {
+    position: absolute;
+    top: 30%;
+    right: 47%;
+}
+
+.the-color {
+    color: #01a580;
+}
+
+.navbar-toggler {
+    background-color: #01a580 !important;
+}
+
+.after-header {
+    min-height: 150px;
+}
+
+
+/* middle */
+
+.div-first {
+    min-height: 400px;
+}
+
+.div-wave {
+    height: 350px;
+    width: 100%;
+}
+
+.div-second {
+    min-height: 350px;
+}
+
+.div-text-2 {
+    margin-top: 150px;
+    ;
+}
+
+.vl {
+    border-left: 2px solid #01a580;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: -1;
+}
+
+.div-borders {
+    border-radius: 50%;
+    border: 1px solid #01a580;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-div {
+        margin-top: 0 !important;
+    }
+    .nav-div {
+        background-color: rgb(209, 209, 209);
+        margin: 0;
+    }
+    .div-wave {
+        height: 150px;
+        width: 100%;
+    }
+}
