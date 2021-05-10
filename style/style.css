@@ -62,6 +62,7 @@ body {
 
 .div-second {
     min-height: 350px;
+    margin-top: 700px;
 }
 
 .div-third .bl {
@@ -100,6 +101,26 @@ body {
     top: 0%;
 }
 
+.safar-idea {
+    margin-top: 450px;
+}
+
+.img-rad {
+    border-radius: 10px;
+}
+
+#img-rad {
+    border-radius: 10px;
+}
+
+.travelIdea {
+    overflow-x: scroll
+}
+
+.under-idea-md {
+    background-color: skyblue
+}
+
 @media screen and (max-width: 991px) {
     .nav-div {
         margin-top: 0 !important;
@@ -112,6 +133,10 @@ body {
         height: 150px;
         width: 100%;
     }
+    .div-second {
+        min-height: 350px;
+        margin-top: 0;
+    }
     .div-third .bl {
         box-shadow: none;
     }
@@ -121,5 +146,20 @@ body {
     }
     .text-amadegi-safar2 button {
         margin-top: 150px
+    }
+    .safar-idea2 {
+        margin-top: 2350px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .safar-idea2 {
+        margin-top: 1900px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .safar-idea2 {
+        margin-top: 1450px;
     }
 }
