@@ -121,6 +121,10 @@ body {
     background-color: skyblue
 }
 
+.footer-wave {
+    margin-top: 150px;
+}
+
 @media screen and (max-width: 991px) {
     .nav-div {
         margin-top: 0 !important;
@@ -149,6 +153,9 @@ body {
     }
     .safar-idea2 {
         margin-top: 2350px;
+    }
+    .footer-wave {
+        background-color: #01503d
     }
 }
 
